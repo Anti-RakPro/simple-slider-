@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/title-icon.png" type="image/icon type">
+</head>
+<body>
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1/4</div>
+        <img src="img/wp_001.jpg" style="width: 100%" alt="">
+        <div class="text">Text</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">2/4</div>
+        <img src="img/wp_002.jpg" style="width: 100%" alt="">
+        <div class="text">Text</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">3/4</div>
+        <img src="img/wp_003.jpg" style="width: 100%" alt="">
+        <div class="text">Text</div>
+    </div>
+    <div class="mySlides fade">
+        <div class="numbertext">4/4</div>
+        <img src="img/wp_004.jpg" style="width: 100%" alt="">
+        <div class="text">Text</div>
+    </div>
+    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="next" onclick="plusSlides(1)" >&#10095</a>
+
+
+    <br>
+    <div class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
